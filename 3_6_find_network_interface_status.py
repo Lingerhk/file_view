@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
 
+import nmap
 import argparse
 import socket
 import struct
 import fcntl
-import nmap
 
 
 SAMPLE_PORTS = '21-65535'
