@@ -10,7 +10,7 @@ import fcntl
 import nmap
 
 
-SAMPLE_PORTS = '21-23'
+SAMPLE_PORTS = '21-65535'
 
 
 def get_interface_status(ifname):
