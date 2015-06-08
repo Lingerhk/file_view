@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# Python Network Programming Cookbook -- Chapter - 3
-# This program is optimized for Python 2.7.
-# It may run on any other version with/without modifications.
 
 import argparse
 import socket
