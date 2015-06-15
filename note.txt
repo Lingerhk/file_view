@@ -1,0 +1,8 @@
+1. Linux连接Windows共享文件：
+
+==> smbclient //ip_address/share_file_dir -U username%passwd
+
+==> mount -t cifs -o username="administrator" //192.168.240.21/share /media/share
+
+rdesktop使用:
+ rdesktop 192.168.2.24 -g 1024*768 -u administrator -a 16
